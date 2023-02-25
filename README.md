@@ -13,6 +13,6 @@
 1. AWS account access key
 2. AWS account secret key
 3. AWS S3 bucket name
-4. File name in S3
+4. File name in AWS S3
 5. Slack App OAuth Token
 6. Slack Channel Id

@@ -1,0 +1,5 @@
+Asset Serial Number
+Laptop 001
+Mouse 201
+Headphones 111
+Monitor 100

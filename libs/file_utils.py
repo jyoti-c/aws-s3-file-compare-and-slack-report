@@ -5,13 +5,11 @@ from html2image import Html2Image
 
 def file_compare_and_generate_report(file1, file2, html_report_name) :
     """
-    Compares two files one from s3 and one on local and generates HTML report and saves the report to png file
-    :param local_file: String local file name
-    :param s3bucket: String S3 bucket name
-    :param s3_file: String file name in S3
-    :param new_file: String new file name
+    Compares two files, generates HTML report and saves the report to png file
+    :param file1: String file 1
+    :param file2: String file 2
     :param html_report_name: String report name to be generated
-    :return: String file path of png file
+    :return: String absolute file path of png file
     """
     print("Generate HTML diff and save to results image file")
     hti = Html2Image()

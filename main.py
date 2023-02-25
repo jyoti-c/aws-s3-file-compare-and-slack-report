@@ -3,6 +3,16 @@ import argparse
 
 
 def read_and_compare_file_results(file_name, s3_bucket_name,new_file,slackAppOAuthToken,slackChannelId,reportName):
+    """
+    Read file from AWS S3, compare file with local file, generate comparison report and publish it to slack channel
+    :param file_name: String file name from AWS S3
+    :param s3_bucket_name: String AWS S3 bucket name
+    :param new_file: String local file name
+    :param slackAppOAuthToken: String Slack app oAuth token
+    :param slackChannelId: String Slack channel id
+    :param reportName: String comparison report name
+    :return:
+    """
     print("Read file from S3")
     aws_s3_client.read_from_s3('./resources/' + file_name, s3_bucket_name, file_name)
 

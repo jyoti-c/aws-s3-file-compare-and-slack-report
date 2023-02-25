@@ -1,6 +1,6 @@
 # aws-s3-file-compare-and-slack-report
 
-**This code performs the following operations - **
+**This code performs the following operations -**
 
 1. Reads the file from your AWS S3 bucket
 2. Compares the file with your local file using Python difflib

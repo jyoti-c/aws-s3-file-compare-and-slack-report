@@ -4,8 +4,8 @@
 
 1. Reads the file from your AWS S3 bucket
 2. Compares the file with your local file using Python difflib
-3. Genrates an HTML and PNG report of the difference
-4. Sends the report to a slack channel using Python SLack SDK
+3. Generates an HTML and PNG report of the difference
+4. Sends the report to a slack channel using Python Slack SDK
 5. Uploads the new file and report to AWS S3
 
 **To run the main.py, the following values are to be passed as command line argunments -**
